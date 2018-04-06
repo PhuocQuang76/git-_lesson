@@ -1,11 +1,13 @@
 
 def my_square(y):
     """takes a value and returns the squared value.
-    use the * operator
+    use the ** operator
     """
     return(y ** 2)
 def my_square2(x):
-    return (x*x)
+    """uses the * operator to calculate square
+    """
+    return (x * x)
 
 print(my_square(42))
 print(my_square2(42))
